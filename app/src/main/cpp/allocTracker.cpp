@@ -17,6 +17,7 @@ extern "C" {
 static int randomDouble(double start, double end) {
     return static_cast<int>(start + (end - start) * rand() / (RAND_MAX + 1.0));
 }
+
 static int randomInt(int start, int end) {
     return (int) randomDouble(start, end);
 }
