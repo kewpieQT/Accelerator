@@ -215,6 +215,7 @@ static int getARTAllocRecordCount() {
     }
     return 0;
 }
+
 static int getARTAllocRecordMax() {
     if (libHandle == NULL || allocTrackerType != ALLOC_TRACKER_ART) {
         return 0;
