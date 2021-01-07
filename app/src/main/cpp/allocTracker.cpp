@@ -513,3 +513,4 @@ static bool newArtRecordAllocationDoing24(void *_this, Class *type, size_t byte_
 #ifdef __cplusplus
 }
 #endif
+

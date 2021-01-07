@@ -33,7 +33,7 @@ typedef unsigned char u1;
 
 
 #define JNI_METHOD_DECL(ret_type, method_name) \
-     extern "C" JNIEXPORT ret_type JNICALL Java_##com_dodola_alloctrack##_##AllocTracker##_##method_name
+     extern "C" JNIEXPORT ret_type JNICALL Java_##com_kewpie_accelerator##_##Accelerator##_##method_name
 
 #ifdef __cplusplus
 extern "C" {
