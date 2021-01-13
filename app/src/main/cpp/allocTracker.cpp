@@ -248,6 +248,7 @@ static int getARTAllocRecordHead() {
     }
     return 0;
 }
+
 static void resetARTAllocRecord() {
     if (libHandle == NULL || allocTrackerType != ALLOC_TRACKER_ART) {
         return;
