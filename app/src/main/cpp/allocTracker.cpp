@@ -263,6 +263,7 @@ static void resetARTAllocRecord() {
         *mallocRecordCount = 0;
     }
 }
+
 /**
  * 基本art 都适配 生成的 byte array 格式如下
  * Message header (all values big-endian):
