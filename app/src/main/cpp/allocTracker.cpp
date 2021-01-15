@@ -384,6 +384,7 @@ static void stopDvmAllocationTracker() {
         dvmDisableAllocTracker();
     }
 }
+
 JNI_METHOD_DECL(jbyteArray, getDvmAllocationDataForJava)
 (JNIEnv *env, jobject jref) {
     LOGI("getDvmAllocationDataForJava data: 0x%x, dataLen", dvmAllocationData,
